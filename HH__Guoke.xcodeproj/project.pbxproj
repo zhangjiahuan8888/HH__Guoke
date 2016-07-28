@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2B95B81D49E7E000156265 /* FCXRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B95AF1D49E7E000156265 /* FCXRefreshBaseView.m */; };
+		0C2B95B91D49E7E000156265 /* FCXRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B95B11D49E7E000156265 /* FCXRefreshFooterView.m */; };
+		0C2B95BA1D49E7E000156265 /* FCXRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B95B31D49E7E000156265 /* FCXRefreshHeaderView.m */; };
+		0C2B95BB1D49E7E000156265 /* UIScrollView+FCXRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B95B51D49E7E000156265 /* UIScrollView+FCXRefresh.m */; };
+		0C2B95C01D49E91300156265 /* refresh_cow_front_57x41_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2B95BC1D49E91300156265 /* refresh_cow_front_57x41_@1x.png */; };
+		0C2B95C11D49E91300156265 /* refresh_cow_side_57x41_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2B95BD1D49E91300156265 /* refresh_cow_side_57x41_@1x.png */; };
+		0C2B95C21D49E91300156265 /* refresh_light_133x93_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2B95BE1D49E91300156265 /* refresh_light_133x93_@1x.png */; };
+		0C2B95C31D49E91300156265 /* refresh_ufo_49x27_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2B95BF1D49E91300156265 /* refresh_ufo_49x27_@1x.png */; };
 		0C31185C1D4756A500A72238 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31185B1D4756A500A72238 /* HomeModel.m */; };
 		0C3118631D47590700A72238 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31185F1D47590700A72238 /* NSObject+YYModel.m */; };
 		0C3118641D47590700A72238 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3118611D47590700A72238 /* YYClassInfo.m */; };
@@ -100,6 +108,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C2B95AE1D49E7E000156265 /* FCXRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCXRefreshBaseView.h; sourceTree = "<group>"; };
+		0C2B95AF1D49E7E000156265 /* FCXRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshBaseView.m; sourceTree = "<group>"; };
+		0C2B95B01D49E7E000156265 /* FCXRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCXRefreshFooterView.h; sourceTree = "<group>"; };
+		0C2B95B11D49E7E000156265 /* FCXRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshFooterView.m; sourceTree = "<group>"; };
+		0C2B95B21D49E7E000156265 /* FCXRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCXRefreshHeaderView.h; sourceTree = "<group>"; };
+		0C2B95B31D49E7E000156265 /* FCXRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCXRefreshHeaderView.m; sourceTree = "<group>"; };
+		0C2B95B41D49E7E000156265 /* UIScrollView+FCXRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FCXRefresh.h"; sourceTree = "<group>"; };
+		0C2B95B51D49E7E000156265 /* UIScrollView+FCXRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FCXRefresh.m"; sourceTree = "<group>"; };
+		0C2B95BC1D49E91300156265 /* refresh_cow_front_57x41_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_cow_front_57x41_@1x.png"; path = "../refresh_cow_front_57x41_@1x.png"; sourceTree = "<group>"; };
+		0C2B95BD1D49E91300156265 /* refresh_cow_side_57x41_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_cow_side_57x41_@1x.png"; path = "../refresh_cow_side_57x41_@1x.png"; sourceTree = "<group>"; };
+		0C2B95BE1D49E91300156265 /* refresh_light_133x93_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_light_133x93_@1x.png"; path = "../refresh_light_133x93_@1x.png"; sourceTree = "<group>"; };
+		0C2B95BF1D49E91300156265 /* refresh_ufo_49x27_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh_ufo_49x27_@1x.png"; path = "../refresh_ufo_49x27_@1x.png"; sourceTree = "<group>"; };
 		0C31185A1D4756A500A72238 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		0C31185B1D4756A500A72238 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		0C31185E1D47590700A72238 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
@@ -298,6 +318,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C2B95AB1D49E7E000156265 /* FCXRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				0C2B95BC1D49E91300156265 /* refresh_cow_front_57x41_@1x.png */,
+				0C2B95BD1D49E91300156265 /* refresh_cow_side_57x41_@1x.png */,
+				0C2B95BE1D49E91300156265 /* refresh_light_133x93_@1x.png */,
+				0C2B95BF1D49E91300156265 /* refresh_ufo_49x27_@1x.png */,
+				0C2B95AE1D49E7E000156265 /* FCXRefreshBaseView.h */,
+				0C2B95AF1D49E7E000156265 /* FCXRefreshBaseView.m */,
+				0C2B95B01D49E7E000156265 /* FCXRefreshFooterView.h */,
+				0C2B95B11D49E7E000156265 /* FCXRefreshFooterView.m */,
+				0C2B95B21D49E7E000156265 /* FCXRefreshHeaderView.h */,
+				0C2B95B31D49E7E000156265 /* FCXRefreshHeaderView.m */,
+				0C2B95B41D49E7E000156265 /* UIScrollView+FCXRefresh.h */,
+				0C2B95B51D49E7E000156265 /* UIScrollView+FCXRefresh.m */,
+			);
+			path = FCXRefreshView;
+			sourceTree = "<group>";
+		};
 		0C3118591D47568B00A72238 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -695,6 +734,7 @@
 		0C90A1521D460DC90034EB85 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				0C2B95AB1D49E7E000156265 /* FCXRefreshView */,
 				0C31185D1D47590700A72238 /* YYModel */,
 				0C5BB1881D474602006BF0CF /* UIKit+AFNetworking */,
 				0C5BB1741D4745F9006BF0CF /* AFNetworking */,
@@ -822,10 +862,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C4BBC431D487FC300F2C2C1 /* logo_cover_100x50_@2x.png in Resources */,
+				0C2B95C01D49E91300156265 /* refresh_cow_front_57x41_@1x.png in Resources */,
+				0C2B95C31D49E91300156265 /* refresh_ufo_49x27_@1x.png in Resources */,
 				0C4BBC4C1D48836F00F2C2C1 /* logo_cover_100x50_.png in Resources */,
+				0C2B95C11D49E91300156265 /* refresh_cow_side_57x41_@1x.png in Resources */,
 				0C90A1881D4619670034EB85 /* Info.plist in Resources */,
 				0C4BBC441D487FC300F2C2C1 /* logo_cover_100x50_@3x.png in Resources */,
 				0C4BBC3C1D487D3500F2C2C1 /* Images.xcassets in Resources */,
+				0C2B95C21D49E91300156265 /* refresh_light_133x93_@1x.png in Resources */,
 				0C90A10F1D460DA10034EB85 /* LaunchScreen.storyboard in Resources */,
 				0C90A10C1D460DA10034EB85 /* Assets.xcassets in Resources */,
 				0C4BBC401D487EA600F2C2C1 /* start.png in Resources */,
@@ -843,15 +887,18 @@
 				0C3118891D47692C00A72238 /* SDImageCache.m in Sources */,
 				0C3118901D47692C00A72238 /* UIButton+WebCache.m in Sources */,
 				0C3118631D47590700A72238 /* NSObject+YYModel.m in Sources */,
+				0C2B95B91D49E7E000156265 /* FCXRefreshFooterView.m in Sources */,
 				0C90A1471D460DBA0034EB85 /* PCLeftView.m in Sources */,
 				0C5BB1831D4745F9006BF0CF /* AFNetworkReachabilityManager.m in Sources */,
 				0C5BB19E1D474602006BF0CF /* AFImageDownloader.m in Sources */,
 				0C5BB1821D4745F9006BF0CF /* AFHTTPSessionManager.m in Sources */,
 				0C5BB1A31D474602006BF0CF /* UIProgressView+AFNetworking.m in Sources */,
+				0C2B95BA1D49E7E000156265 /* FCXRefreshHeaderView.m in Sources */,
 				0C3118A91D47694200A72238 /* TADotView.m in Sources */,
 				0C31188B1D47692C00A72238 /* SDWebImageDecoder.m in Sources */,
 				0C5BB1851D4745F9006BF0CF /* AFURLRequestSerialization.m in Sources */,
 				0C31188F1D47692C00A72238 /* SDWebImagePrefetcher.m in Sources */,
+				0C2B95BB1D49E7E000156265 /* UIScrollView+FCXRefresh.m in Sources */,
 				0C5BB1AD1D474675006BF0CF /* NSArray+ ZXPUnicode.m in Sources */,
 				0C3118641D47590700A72238 /* YYClassInfo.m in Sources */,
 				0C5BB16D1D47378E006BF0CF /* HHTextField.m in Sources */,
@@ -893,6 +940,7 @@
 				0C31188D1D47692C00A72238 /* SDWebImageDownloaderOperation.m in Sources */,
 				0C90A14B1D460DBA0034EB85 /* AboutViewController.m in Sources */,
 				0C90A14A1D460DBA0034EB85 /* PCSettingViewController.m in Sources */,
+				0C2B95B81D49E7E000156265 /* FCXRefreshBaseView.m in Sources */,
 				0C5BB1A01D474602006BF0CF /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0C31188E1D47692C00A72238 /* SDWebImageManager.m in Sources */,
 				0C5BB1A21D474602006BF0CF /* UIImageView+AFNetworking.m in Sources */,

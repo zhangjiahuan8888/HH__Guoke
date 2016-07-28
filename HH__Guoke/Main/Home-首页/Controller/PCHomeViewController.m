@@ -12,8 +12,13 @@
 #import "NetworkService.h"
 #import "HomeModel.h"
 #import "SDCycleScrollView.h"
+#import "FCXRefreshFooterView.h"
+#import "FCXRefreshHeaderView.h"
+#import "UIScrollView+FCXRefresh.h"
 @interface PCHomeViewController () <UITableViewDataSource,UITableViewDelegate,SDCycleScrollViewDelegate>
-
+{
+    FCXRefreshHeaderView *headerView;
+}
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSMutableArray *models; /**< models */
 @property (nonatomic,strong) SDCycleScrollView *cycleScrollView;
@@ -34,8 +39,18 @@ static NSString *identifer = @"HomeCell";
     
     [self requestData];
     [self creatSubviews];
+    
+    __weak __typeof(self)weakSelf = self;
+    headerView = [_tableView addHeaderWithRefreshHandler:^(FCXRefreshBaseView *refreshView) {
+        [weakSelf requestData];
+    }];
+
 }
 - (void)requestData{
+    
+//    [self.sdImageUrls removeAllObjects];
+//    [self.sdTitles removeAllObjects];
+    
     [NetworkService requestWithURL:adUrl params:nil success:^(id result) {
         NSLog(@"%@",result);
         NSArray *imgArray = result[@"result"];
@@ -48,11 +63,13 @@ static NSString *identifer = @"HomeCell";
         }
         _cycleScrollView.titlesGroup = self.sdTitles;
         _cycleScrollView.imageURLStringsGroup = self.sdImageUrls;
+        [headerView endRefresh];
     } failure:^(NSError *error) {
         NSLog(@"----%@",error);
+        [headerView endRefresh];
     }];
 
-    
+//    [_models removeAllObjects];
     NSDictionary *paramDic = @{@"category":@"all",
                                @"since":@1469519796,
                                @"ad":@1,
@@ -60,7 +77,9 @@ static NSString *identifer = @"HomeCell";
                                @"limit":@20,
                                @"retrieve_type":@"by_since"};
     [NetworkService requestWithURL:homeUrl params:paramDic success:^(id result) {
-        
+        NSLog(@"----%@",result);
+        [headerView endRefresh];
+        [_models removeAllObjects];
         NSArray *array = result[@"result"];
         for (NSDictionary *dic in array) {
             HomeModel *model = [HomeModel yy_modelWithDictionary:dic];
@@ -68,6 +87,7 @@ static NSString *identifer = @"HomeCell";
         }
         [_tableView reloadData];
     } failure:^(NSError *error) {
+        [headerView endRefresh];
         NSLog(@"----%@",error);
     }];
 }
