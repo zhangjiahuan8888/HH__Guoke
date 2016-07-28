@@ -1,6 +1,5 @@
-# HH__Guoke
+##希望小手能顺便点一下右上角的⭐️Star ^_^，朋友的鼓励和支持是我们继续分享的动力，万分感谢！！
 小菜鸟仿写果壳精选 (未完，后期继续完善。。。)                                                                                             
-如果您觉得有用，还请您给个小小的★★★Star★★★，您的鼓励是我前进的最大动力。万分感谢！！！
 
 #效果图
 ![1.1.png](http://upload-images.jianshu.io/upload_images/1303032-8a91a7995b177c3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
